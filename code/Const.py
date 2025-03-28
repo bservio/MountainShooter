@@ -32,6 +32,10 @@ ENTITY_SPEED = {
     'Player2': 3,
     'Enemy1': 1,
     'Enemy2': 1,
+    'Player1Shot': 1,
+    'Player2Shot': 1,
+    'Enemy1Shot': 1,
+    'Enemy2Shot': 1,
 }
 
 EVENT_ENEMY = pygame.USEREVENT + 1
@@ -63,7 +67,7 @@ PLAYER_KEY_RIGHT = {
     'Player2': pygame.K_l
 }
 PLAYER_KEY_SHOOT = {
-    'Player1': pygame.K_LCTRL,
+    'Player1': pygame.K_SPACE,
     'Player2': pygame.K_RCTRL
 }
 
