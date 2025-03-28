@@ -18,3 +18,6 @@ class EntityFactory:
 
             case 'Player1':
                 return Player('Player1', (10, (WIN_HEIGHT/2)))
+
+            case 'Player2':
+                return Player('Player2', (10, (WIN_HEIGHT / 2 + 50)))
